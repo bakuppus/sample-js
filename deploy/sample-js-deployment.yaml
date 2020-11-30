@@ -4,7 +4,6 @@ items:
   kind: Deployment
   metadata:
     annotations:
-      deployment.kubernetes.io/revision: "1"
       prometheus.io.scrape: "false"
     labels:
       faas_function: sample-js
